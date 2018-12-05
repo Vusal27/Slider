@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="./styles/normalize/normalize.css" rel="stylesheet" type="text/css"/>
+        <link href="./styles/main.css" rel="stylesheet" type="text/css"/>
+        <script  src = "https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="section">
+                <div class="bg">
+                    <img src="./images/background/bg_1.png" alt="background-image" class="bg__img bg__img_active">
+                    <img src="./images/background/bg_2.png" alt="background-image" class="bg__img">
+                    <img src="./images/background/bg_3.png" alt="background-image" class="bg__img">
+                    <img src="./images/background/bg_4.png" alt="background-image" class="bg__img bg__img_blur">
+                    <img src="./images/background/bg_5.png" alt="background-image" class="bg__img bg__img_blur">
+                    <img src="./images/background/bg_6.png" alt="background-image" class="bg__img bg__img_blur">
+                </div>
+                <div class="main container">
+                    <div class="main__content">
+                        <div class="content">
+                            <div class="content__slider">
+                                <div class="slider">
+                                    <div class="slider__wrap slider__wrap_active">
+                                        <ul class="slider__list">
+                                            <li class="slider__item">
+                                                <img src="./images/content/Lisy-nos_1.png" alt="" class="slider__img">
+                                                <div class="slider__title">Лисий нос</div>
+                                            </li>
+                                            <li class="slider__item">
+                                                <img src="./images/content/Lisy-nos_2.png" alt="" class="slider__img">
+                                                <div class="slider__title">Лисий нос</div>
+                                            </li>
+                                            <li class="slider__item">
+                                                <img src="./images/content/Lisy-nos_3.png" alt="" class="slider__img">
+                                                <div class="slider__title">Лисий нос</div>
+                                            </li>
+                                        </ul>
+                                        <button data="0" class="slider__btn slider__btn_next">
+                                            <svg class="slider__icon">
+                                                <use xlink:href="./images/icons/sprite.svg#right"></use>
+                                            </svg>                        
+                                        </button>
+                                        <button data="0" class="slider__btn slider__btn_prev">
+                                            <svg class="slider__icon">
+                                                <use xlink:href="./images/icons/sprite.svg#left"></use>
+                                            </svg>                        
+                                        </button>
+                                    </div>
+                                    <div class="slider__wrap">
+                                        <ul class="slider__list">
+                                            <li class="slider__item">
+                                                <img src="./images/content/Marshala_1.png" alt="" class="slider__img">
+                                                <div class="slider__title">пр.Маршала блюхера</div>
+                                            </li>
+                                            <li class="slider__item">
+                                                <img src="./images/content/Marshala_1.png" alt="" class="slider__img">
+                                                <div class="slider__title">пр.Маршала блюхера</div>
+                                            </li>
+                                            <li class="slider__item">
+                                                <img src="./images/content/Marshala_1.png" alt="" class="slider__img">
+                                                <div class="slider__title">пр.Маршала блюхера</div>
+                                            </li>
+                                        </ul>
+                                        <button data="1" class="slider__btn slider__btn_next">
+                                            <svg class="slider__icon">
+                                                <use xlink:href="./images/icons/sprite.svg#right"></use>
+                                            </svg>                        
+                                        </button>
+                                        <button data="1" class="slider__btn slider__btn_prev">
+                                            <svg class="slider__icon">
+                                                <use xlink:href="./images/icons/sprite.svg#left"></use>
+                                            </svg>                        
+                                        </button>
+                                    </div>
+                                    <div class="slider__wrap">
+                                        <ul class="slider__list">
+                                            <li class="slider__item">
+                                                <img src="./images/content/Dolgoozernaya_1.png" alt="" class="slider__img">
+                                                <div class="slider__title">ул.Долгоозерная</div>
+                                            </li>
+                                            <li class="slider__item">
+                                                <img src="./images/content/Dolgoozernaya_1.png" alt="" class="slider__img">
+                                                <div class="slider__title">ул.Долгоозерная</div>
+                                            </li>
+                                            <li class="slider__item">
+                                                <img src="./images/content/Dolgoozernaya_1.png" alt="" class="slider__img">
+                                                <div class="slider__title">ул.Долгоозерная</div>
+                                            </li>
+                                        </ul>
+                                        <button data="2" class="slider__btn slider__btn_next">
+                                            <svg class="slider__icon">
+                                                <use xlink:href="./images/icons/sprite.svg#right"></use>
+                                            </svg>                        
+                                        </button>
+                                        <button data="2" class="slider__btn slider__btn_prev">
+                                            <svg class="slider__icon">
+                                                <use xlink:href="./images/icons/sprite.svg#left"></use>
+                                            </svg>                        
+                                        </button>
+                                    </div>
+                                    <div class="slider__wrap">                                    
+                                        <ul class="slider__list">
+                                            <li class="slider__item">
+                                                <img src="./images/content/Bogatirskiy_1.png" alt="" class="slider__img">
+                                                <div class="slider__title">пр.Богатырский</div>
+                                            </li>
+                                            <li class="slider__item">
+                                                <img src="./images/content/Bogatirskiy_1.png" alt="" class="slider__img">
+                                                <div class="slider__title">пр.Богатырский</div>
+                                            </li>
+                                            <li class="slider__item">
+                                                <img src="./images/content/Bogatirskiy_1.png" alt="" class="slider__img">
+                                                <div class="slider__title">пр.Богатырский</div>
+                                            </li>
+                                        </ul>
+                                        <button data="3" class="slider__btn slider__btn_next">
+                                            <svg class="slider__icon">
+                                                <use xlink:href="./images/icons/sprite.svg#right"></use>
+                                            </svg>                        
+                                        </button>
+                                        <button data="3" class="slider__btn slider__btn_prev">
+                                            <svg class="slider__icon">
+                                                <use xlink:href="./images/icons/sprite.svg#left"></use>
+                                            </svg>                        
+                                        </button>
+                                    </div>
+                                    <div class="slider__wrap">
+                                        <ul class="slider__list">
+                                            <li class="slider__item">
+                                                <img src="./images/content/Kolomej_1.png" alt="" class="slider__img">
+                                                <div class="slider__title">пр.Коломяжский</div>
+                                            </li>
+                                            <li class="slider__item">
+                                                <img src="./images/content/Kolomej_1.png" alt="" class="slider__img">
+                                                <div class="slider__title">пр.Коломяжский</div>
+                                            </li>
+                                            <li class="slider__item">
+                                                <img src="./images/content/Kolomej_1.png" alt="" class="slider__img">
+                                                <div class="slider__title">пр.Коломяжский</div>
+                                            </li>
+                                        </ul>
+                                        <button data="4" class="slider__btn slider__btn_next">
+                                            <svg class="slider__icon">
+                                                <use xlink:href="./images/icons/sprite.svg#right"></use>
+                                            </svg>                        
+                                        </button>
+                                        <button data="4" class="slider__btn slider__btn_prev">
+                                            <svg class="slider__icon">
+                                                <use xlink:href="./images/icons/sprite.svg#left"></use>
+                                            </svg>                        
+                                        </button>
+                                    </div>
+                                    <div class="slider__wrap">
+                                        <ul class="slider__list">
+                                            <li class="slider__item">
+                                                <img src="./images/content/Narod_1.png" alt="" class="slider__img">
+                                                <div class="slider__title">Народного ополчения</div>
+                                            </li>
+                                            <li class="slider__item">
+                                                <img src="./images/content/Narod_1.png" alt="" class="slider__img">
+                                                <div class="slider__title">Народного ополчения</div>
+                                            </li>
+                                            <li class="slider__item">
+                                                <img src="./images/content/Narod_1.png" alt="" class="slider__img">
+                                                <div class="slider__title">Народного ополчения</div>
+                                            </li>
+                                        </ul>
+                                        <button data="5" class="slider__btn slider__btn_next">
+                                            <svg class="slider__icon">
+                                                <use xlink:href="./images/icons/sprite.svg#right"></use>
+                                            </svg>                        
+                                        </button>
+                                        <button data="5" class="slider__btn slider__btn_prev">
+                                            <svg class="slider__icon">
+                                                <use xlink:href="./images/icons/sprite.svg#left"></use>
+                                            </svg>                        
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content__text">
+                                <div class="title">Нами завершено более 360 ремонтов</div>
+                                <div class="desc">Посмотрите некоторые из них, чтобы оценить качеств нашей работы</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__gallery">
+                        <div class="gallery">
+                            <ul class="gallery__list">
+                                <li class="gallery__item">
+                                    <button class="gallery__btn" data="0">
+                                        <img src="./images/content/Lisy-nos_1.png" alt="btn-img" class="gallery__bg _active">
+                                        <div class="gallery__title">Лисий нос</div>
+                                    </button>
+                                </li>
+                                <li class="gallery__item">
+                                    <button class="gallery__btn" data="1">
+                                        <img src="./images/content/Marshala_1.png" alt="btn-img" class="gallery__bg">
+                                        <div class="gallery__title">пр.Маршала блюхера</div>
+                                    </button>
+                                </li>
+                                <li class="gallery__item">
+                                    <button class="gallery__btn" data="2">
+                                        <img src="./images/content/Dolgoozernaya_1.png" alt="btn-img" class="gallery__bg">
+                                        <div class="gallery__title">ул.Долгоозерная</div>
+                                    </button>
+                                </li>
+                            </ul>
+                            <ul class="gallery__list second hidden">
+                                <li class="gallery__item">
+                                    <button class="gallery__btn" data="3">
+                                        <img src="./images/content/Bogatirskiy_1.png" alt="btn-img" class="gallery__bg">
+                                        <div class="gallery__title">пр.Богатырский</div>
+                                    </button>
+                                </li>
+                                <li class="gallery__item">
+                                    <button class="gallery__btn" data="4">
+                                        <img src="./images/content/Kolomej_1.png" alt="btn-img" class="gallery__bg">
+                                        <div class="gallery__title">пр.Коломяжский</div>
+                                    </button>
+                                </li>
+                                <li class="gallery__item">
+                                    <button class="gallery__btn" data="5">
+                                        <img src="./images/content/Narod_1.png" alt="btn-img" class="gallery__bg">
+                                        <div class="gallery__title">Народного ополчения</div>
+                                    </button>
+                                </li>
+                            </ul>                            
+                            <a href="#" class="gallery__more">больше наших ремонтов</a>
+                            <a href="#" class="gallery__close hidden">Свернуть</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./scripts/main.js"></script>
+    </body>
+</html>
