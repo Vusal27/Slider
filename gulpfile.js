@@ -109,6 +109,7 @@ exports.fonts = fonts;
 exports.stylesNlz = stylesNlz;
 exports.images = images;
 exports.scss = scss;
+exports.deploy = deploy;
 
 gulp.task('default', gulp.series(
     clean,
